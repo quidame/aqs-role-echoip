@@ -1,0 +1,4 @@
+# role: echoip
+# file: tests/inventory
+
+localhost       ansible_connection=local

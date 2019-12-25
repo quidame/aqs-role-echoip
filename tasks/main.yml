@@ -1,0 +1,10 @@
+---
+# role: echoip
+# file: tasks/main.yml
+# vim: ft=yaml et sts=2 sw=2 ts=2
+
+
+- import_tasks: assertions.yml
+
+
+- import_tasks: "{{ echoip__action }}.yml"

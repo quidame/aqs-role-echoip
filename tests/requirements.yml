@@ -1,0 +1,10 @@
+---
+# role: echoip
+# file: tests/requirements.yml
+#
+# Install required ansible roles with: ansible-galaxy install -r requirements.yml
+
+- name: "echoip"
+  src: "https://github.com/quidame/aqs-role-echoip.git"
+  scm: "git"
+  version: "devel"

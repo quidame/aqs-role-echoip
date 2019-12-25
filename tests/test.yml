@@ -1,0 +1,11 @@
+---
+# role: echoip
+# file: tests/test.yml
+
+- hosts: tests
+  roles:
+    - role: echoip
+      echoip__action: setup
+
+    - role: echoip
+      echoip__action: unset
